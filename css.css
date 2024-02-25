@@ -1,0 +1,167 @@
+
+
+.bg-dark {
+    background: #333;
+    color:#fff;
+}
+.error {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: orangered;
+    color: #fff;
+    padding: 5px;
+    margin: 5px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 250px;
+    padding: 10px 0;
+    border: 0;
+    background: #333;
+    color: #0a0505;
+    border-radius: 5px;
+    margin: 50px auto;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.my-form {
+    
+    padding: 1rem;
+    background-color: transparent;
+    max-height: 600px;
+    border: 4px solid white;
+    border-radius: 20px;
+}
+
+#my-form input{
+width: 100%;
+padding: 8px;
+margin-bottom:10px;
+border-radius: 5px;
+border: 2px solid white;
+background-color: transparent;
+}
+
+input{
+    font-size: 16px;
+    font-weight: 800;
+
+}
+body {
+    font-family: "Roboto", sans-serif;
+    line-height:1.6;
+    background: #442a2a;
+    background-image: url(img/vais.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.chose {
+    max-height: 100px;
+}
+
+ul{
+    list-style: none;
+}
+ul li {
+    padding: 5px;
+    background:#f4f4f4;
+    margin: 5px;
+}
+header {
+    background: #f4f4f4;
+    padding: 1rem;
+    text-align: center;
+}
+
+.container{
+    margin: auto;
+    width: 500px;
+    overflow:auto;
+    padding:3rem 2rem 4.3rem ;
+}
+.dydis{
+    font-size: 20px;
+    margin-left: -10px;
+}
+
+
+.chose{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1{
+    
+    color: rgb(14, 5, 5);
+   font-weight: 1500;
+   margin: -20px 0 200px 0;
+max-width: 240px;
+padding-left: 10px;
+border: 4px solid white;
+border-radius: 5px;
+background-color: transparent;
+}
+
+select{
+    color: rgb(14, 5, 5);
+    font-size: 20px;
+    font-weight: 1500;
+    margin-left: 25%;
+    border: 1.5px solid rgb(14, 5, 5);
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.btn__atgal{
+ 
+    max-height: 60px;
+    max-width: 120px;
+    min-height: 60px;
+    min-width: 120px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-family: "Roboto", sans-serif;
+    background-color: transparent;
+    font-size: 20px;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+    font-weight: 900;
+   
+}
+
+.btn__balta{
+    display: block;
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    line-height: 60px;
+   
+}
+.btn__balta:hover{
+    color: rgb(197, 37, 37);
+    font-size:120%;
+
+}
+.button__icon{
+    font-size: 1.25rem;
+}
+
+
+
+

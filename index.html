@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!--========== BOXICONS ==========-->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/066f3cdf1b.js" crossorigin="anonymous"></script>
+    <title>AddUser</title>
+    <link rel="stylesheet" href="css.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
+</head>
+<body>
+<section class="container">
+
+    <form id="my-form" class="my-form">
+        
+        
+        
+            <div class="chose">
+                <label for="cars">
+                    <h1>Pasirinkite produktą:
+                        <select id="server" name="server">
+                            <option value="greipfrutas">Greipfrutas</option>
+                            <option value="arbūzas">Arbūzas</option>
+                            <option value="mangas">Mangas</option>
+                            <option value="melionas">Melionas</option>
+                        </select>
+                     </h1>
+                </label>
+            </div>
+
+        <div class="msg" id="msg"></div>
+
+        <div class="duomenys">
+            <div>
+                <label for="name" class="dydis">Įveskite vnt. skaičių</label>
+                <input type="number"  class="dydis" id="name">
+            </div>
+            
+            
+            <div>
+                <label for="email"  class="dydis">Pristatymo data</label>
+                <input type="date"  class="dydis" id="email">
+            </div>
+
+            <input type="submit" class="btn" value="Patvirtinti užsakymą">
+         </div>
+    </form>
+
+    <ul class="users"></ul>
+
+</section>
+<button class="btn__atgal">
+<a href="https://darbai123.github.io/myHomePage/index.html#work" class="btn__balta"><i class="fa-solid fa-reply button__icon"></i>Atgal</a>
+</button>
+    
+    <script src="js.js"></script>
+</body>
+</html>
